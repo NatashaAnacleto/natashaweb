@@ -2,35 +2,39 @@ from flask import Flask, render_template
 
 class Jogo:
     def __init__(self, nome, categoria, console):
-        self.nome  = nome
-        self.categoria = categoria
-        self.console = console
-    def setNome(self, nome):
         self.nome = nome
-    def setCategoria(self, categoria):
         self.categoria = categoria
-    def setConsole(self, console):
         self.console = console
-    def getNome(self):
-        return self.nome
-    def getCategoria(self):
-        return self.categoria
-    def getConsole(self):
-        return self.console
-list = []
-list.append(Jogo('Tetris', 'Puzzle', 'Atari'))
-list.append(Jogo('God of War', 'Hack n Slash', 'PS2'))
-for obj in list:
-    print(obj.nome, obj.categoria, obj.console, sep='')
+
+jogo1 = Jogo('God of War', 'Ação', 'Playstation')
+jogo2 = Jogo('CS:GO', 'Tiro', 'Computador')
+jogo3 = Jogo('Minecraft', 'Construção', 'Computador')
+
+lista = [jogo1, jogo2, jogo3]
 
 app = Flask(__name__)
 
-@app.route('/inicio')
+@app.route('/')
 def ola():
-    return render_template('lista.html',titulo='Meus Jogos', jogos=list)
+    return render_template('lista.html', titulo='Meus Jogos', jogos=lista)
 
 @app.route('/novo')
 def novo():
-    return render_template('novo.html', titulo="Novo Jogo")
-    
-app.run()
+    return render_template('novo.html', titulo='Meus Jogos', jogos=lista)
+  
+@app.route('/criar', methods=["POST",])
+def criar():
+  nome = request.form['nome']
+  categoria = request.form['categoria']
+  console = request.form['console']
+  jogo = Jogo(nome, categoria, console)
+  lista.append(jogo)
+  
+    return render_template('novo.html', titulo='Meus Jogos', jogos=lista)
+
+
+# Esse código é para quando for rodar no Replit
+app.run(host='0.0.0.0', debug=True)
+
+# Esse código é para quando for rodar em sua máquina
+# app.run(debug=True)
