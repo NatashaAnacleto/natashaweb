@@ -1,5 +1,5 @@
 <h1 align="center">Meu Projeto Jogoteca</h1>
-![capa do readme](https://agenciaplatz.com.br/wp-content/uploads/2019/04/banner-meio-programa%C3%A7%C3%A3o.png)
+
 ## Índice 
 
 
