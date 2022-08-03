@@ -32,6 +32,6 @@
 
 ## Autor 
 
-<h2>Projeto feito por Natasha Rezende<h2>
+Projeto feito por Natasha Rezende
 
 
