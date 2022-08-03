@@ -8,19 +8,29 @@
 * [Acesso ao Projeto](#acesso-ao-projeto)
 * [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras)
 
-<h2>Descrição do projeto: projeto flask com o objetivo de mostrar ao usuário alguns jogos e detalhes</h2>
+## Descrição do projeto
+
+
 
 ## :hammer: Funcionalidades do projeto
 
 - `Funcionalidade 1`: mostrar o nome do jogo
-- `Funcionalidade 2`: mostrar o console
-- `Funcionalidade 3`: mostrar a categoria
+- `Funcionalidade 2`: mostrar o categoria
+- `Funcionalidade 3`: mostrar a console
+
+<table>
+    <tr>
+        <td>Nome</td>
+        <td>Categoria</td>
+        <td>Console</td>
+    </tr>
+</table>
 
 ## 📁 Acesso ao projeto
 
 **Basta apenas acessar o repositório de NatashaAnacleto no Github chamado "natashaweb"**
 
-##Autor 
+## Autor 
 
 <h2>Projeto feito por Natasha Rezende<h2>
 
