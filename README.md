@@ -30,7 +30,7 @@ O projeto deseja oferecer informações sobre jogos em forma de tabela para melh
 
 ## 📁 Acesso ao projeto
 
-**Basta apenas acessar o repositório de NatashaAnacleto no Github chamado "natashaweb"**
+**Basta apenas acessar o repositório de NatashaAnacleto no Github chamado <a href="https://github.com/NatashaAnacleto/natashaweb.git">natashaweb</a>**
 
 ## Autor 
 
