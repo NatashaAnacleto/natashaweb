@@ -4,11 +4,12 @@
 
 ## Índice 
 
-
+<p style=”color:#E6E6FA”>
 * [Descrição do Projeto](#descrição-do-projeto)
 * [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
 * [Acesso ao Projeto](#acesso-ao-projeto)
 * [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras)
+</p>
 
 ## Descrição do projeto
 
