@@ -33,7 +33,7 @@ O projeto deseja oferecer informações sobre jogos em forma de tabela para melh
 
 ## Autor 
 
-<img src="https://i.pinimg.com/564x/a6/58/32/a65832155622ac173337874f02b218fb--people-icon-avatar.jpg">
+<img src="https://i.pinimg.com/564x/a6/58/32/a65832155622ac173337874f02b218fb--people-icon-avatar.jpg" width=115><br><sub>Natasha Rezende</sub>
 &copy; Projeto feito por Natasha Rezende
 
 
