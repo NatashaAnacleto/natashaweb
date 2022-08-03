@@ -1,5 +1,7 @@
 <h1 align="center">Meu Projeto Jogoteca</h1>
 
+<img src="[url](https://www.pngitem.com/pimgs/m/145-1457399_pink-cute-cutepink-game-over-gameover-games-pink.png)">
+
 ## Índice 
 
 
@@ -10,7 +12,7 @@
 
 ## Descrição do projeto
 
-
+O projeto deseja oferecer informações sobre jogos em forma de tabela para melhor entendimento do leitor e é utilizado do tipo flask.
 
 ## :hammer: Funcionalidades do projeto
 
@@ -32,6 +34,6 @@
 
 ## Autor 
 
-Projeto feito por Natasha Rezende
+&copy; Projeto feito por Natasha Rezende
 
 
