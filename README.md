@@ -1,6 +1,6 @@
 <h1 align="center">Meu Projeto Jogoteca</h1>
 
-<img src="[url](https://www.pngitem.com/pimgs/m/145-1457399_pink-cute-cutepink-game-over-gameover-games-pink.png)">
+<img src="https://www.pngitem.com/pimgs/m/145-1457399_pink-cute-cutepink-game-over-gameover-games-pink.png">
 
 ## Índice 
 
